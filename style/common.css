@@ -1,0 +1,52 @@
+/* global */
+body,h1,h2,h3,ul,li,fieldset { margin:0; padding:0; list-style-type:none; font-size:12px; font-weight:normal; border:none; }
+legend { display:none; }
+a img { border:none;}
+em { font-style:normal; }
+dd,dt,ul,li { margin:0; padding:0; list-style-type:none;}
+.fixclear { clear:both; *zoom:1; }
+.fixclear:after { content:''; display:block; visibility:hidden; height:0; clear:both;  }
+a:link { color:#336699;}
+a:visited { color:#336699;}
+a:hover { color:#336699;}
+
+/* header */
+#hd { background:url(../images/head_bg.png) #fff repeat-x; }
+#hd .top { width:950px; height:62px; margin:0 auto; position:relative; }
+#hd .bottom { height:57px; }
+
+#hd h1 { position:absolute; bottom:17px; left:20px; }
+#hd h1 a { display:block; background:url(../images/logo_mark.jpg); width:245px; height:34px; text-indent:-99em; overflow:hidden; }
+.nav { position:absolute; bottom:0; left:288px; }
+.nav li { float:left; margin:0 2px; }
+.nav li a { float:left; background:url(../images/nav_item_bg.png) right bottom; text-decoration:none; }
+.nav li a span { float:left; height:29px; line-height:29px; background:url(../images/nav_item_bg.png) left top; padding:0 10px; cursor:pointer; font-weight:bold; color:#000; font-size:14px; }
+
+.nav li.selected a,
+.nav li a:hover { background:url(../images/nav_item_avtive_bg.png) right bottom; position:relative; bottom:-1px; }
+.nav li.selected a span,
+.nav li a:hover span { background:url(../images/nav_item_avtive_bg.png) left top; color:#fff; }
+.nav li a:visited { color:#000; }
+
+.search { padding-top:10px; }
+.search fieldset { width:580px; margin:0 auto; }
+.search .search-type,
+.search .search-type input,
+.search .search-keywords,
+.search .search-keywords input,
+.search .search-btn { background:url(../images/index_search.png) no-repeat; }
+.search .search-type { float:left; height:32px; margin:0 5px 0 0; width:92px; background-position:0 -32px; }
+.search .search-type select { float:left; margin:6px 0 0 6px; width:80px; height:21px;}
+.search .search-keywords { float:left; height:32px; margin:0 5px 0 0; width:385px; }
+.search .search-keywords input { float:left; width:370px;  padding:3px 0 0 4px;  margin:4px 0 0 4px; border-color:#8a8a8a #8a8a8a #cdcdcd; border-style:solid; border-width:1px; height:19px; background-position:-5px -5px; }
+.search .search-btn { float:left; background-position:-92px -32px;  _background-position:-92px -31px; width:83px; height:34px;  text-indent:-99em; overflow:hidden; border:none; cursor:pointer; }
+
+/* body */
+body { background:#333333; }
+#bd { width:950px; margin:0 auto; background:#fff; padding:10px 0; }
+
+/* user */
+.user { background:url(../images/user_bg.png); padding:3px; width:50px; height:50px; }
+
+#warning { background:yellow; text-align:center; color:red; padding:5px;}
+
